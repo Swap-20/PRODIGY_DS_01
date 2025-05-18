@@ -1,65 +1,50 @@
 # PRODIGY_DS_01
 
-# 🌍 World Bank Indicator: SP.POP.TOTL - Total Population
+# 🌍 Population Data Visualization — World Bank Indicator `SP.POP.TOTL`
 
-This repository contains data and analysis related to the **Total Population** of countries around the world, using the World Bank's **`SP.POP.TOTL`** indicator.
+---
 
-## 📌 Indicator Overview
+## 🚀 Project Overview
 
-- **Indicator Code**: `SP.POP.TOTL`
-- **Name**: Total Population
-- **Source**: [The World Bank](https://data.worldbank.org/indicator/SP.POP.TOTL)
-- **Definition**: Total population refers to the number of people residing in a country or region, regardless of legal status or citizenship. The values are midyear estimates.
+This project visualizes the **total population** of countries using the World Bank indicator `SP.POP.TOTL`.  
+Using Python’s powerful libraries, we create an **interactive, attractive bar chart** to compare population sizes of different countries in a chosen year.
 
-## 📊 Use Cases
+---
 
-- Demographic analysis  
-- Country comparison and trend analysis  
-- Data visualization and storytelling  
-- Input for socio-economic, public policy, and forecasting models
+## 📊 About the Data
 
-## 📁 Repository Contents
+- **Data Source:** [World Bank Open Data](https://data.worldbank.org/)
+- **Indicator Code:** `SP.POP.TOTL` (Total Population)
+- **Description:** Total population of countries across different years.
+- **Sample Snapshot:**
 
-- `data/` — Raw and cleaned CSV files of population data  
-- `notebooks/` — Jupyter notebooks for exploratory data analysis and visualization  
-- `scripts/` — Python scripts for fetching and processing the data  
-- `README.md` — This file
+| Country      | Year | Population      |
+|--------------|------|-----------------|
+| 🇮🇳 India       | 2022 | 1,417,173,173   |
+| 🇨🇳 China       | 2022 | 1,412,175,000   |
+| 🇺🇸 United States| 2022 | 332,403,650     |
+| 🇮🇩 Indonesia   | 2022 | 276,361,783     |
+| 🇵🇰 Pakistan    | 2022 | 235,824,862     |
 
-## 🔧 How to Use
+---
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/worldbank-sp.pop.totl.git
-   cd worldbank-sp.pop.totl
-   ```
+## 🎯 Objectives
 
-2. Install dependencies (if applicable):
-   ```bash
-   pip install -r requirements.txt
-   ```
+- Visualize population sizes by country using a **horizontal bar chart**.
+- Learn how to use **pandas** and **matplotlib** for data handling and plotting.
+- Provide a reusable template for visualizing other indicators or datasets.
 
-3. Run the data fetch or analysis script:
-   ```bash
-   python scripts/fetch_data.py
-   ```
+---
 
-## 📈 Sample Visualization
+## 💻 Prerequisites
 
-Here's an example chart showing population growth over time for selected countries:
+Make sure you have the following installed:
 
-*(Insert image or link to notebook output)*
+- Python 3.x  
+- [pandas](https://pandas.pydata.org/)  
+- [matplotlib](https://matplotlib.org/)
 
-## 📚 References
+Install required libraries via pip:
 
-- [World Bank Indicator - SP.POP.TOTL](https://data.worldbank.org/indicator/SP.POP.TOTL)
-- [World Bank Data API](https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation)
-
-## 🧑‍💻 Author
-
-- **Swapnali Patil**  
-- LinkedIn: ()  
-- GitHub: [@your-username](https://github.com/your-username)
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+```bash
+pip install pandas matplotlib
