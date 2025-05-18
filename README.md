@@ -56,8 +56,8 @@ Here's an example chart showing population growth over time for selected countri
 
 ## 🧑‍💻 Author
 
-- **Your Name**  
-- LinkedIn: [Your Profile](https://linkedin.com/in/your-profile)  
+- **Swapnali Patil**  
+- LinkedIn: ()  
 - GitHub: [@your-username](https://github.com/your-username)
 
 ## 📄 License
