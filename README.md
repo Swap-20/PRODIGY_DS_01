@@ -13,9 +13,16 @@ Using Python’s powerful libraries, we create an **interactive, attractive bar 
 
 ## 📊 About the Data
 
-- **Data Source:** [World Bank Open Data](https://data.worldbank.org/)
-- **Indicator Code:** `SP.POP.TOTL` (Total Population)
-- **Description:** Total population of countries across different years.
+📊 Data Source: World Bank Open Data (SP.POP.TOTL)
+
+🐍 Tech Stack: Python, Pandas, Matplotlib, Seaborn / Plotly
+
+🌐 Cleaned and processed over 60 years of population data (1960–2023)
+
+🔍 Missing values handled via interpolation and forward/backward filling
+
+📈 Interactive visualization using Matplotlib
+
 - **Sample Snapshot:**
 
 | Country      | Year | Population      |
